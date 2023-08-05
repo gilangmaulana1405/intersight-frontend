@@ -1,11 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 // components
 
 export default function CardProfile() {
   return (
     <>
-      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
+      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-12">
         <div className="px-6">
           <div className="flex flex-wrap justify-center">
             <div className="w-full px-4 flex justify-center">
@@ -68,10 +69,8 @@ export default function CardProfile() {
                   range.
                 </p>
                 <Link
-                  href="#pablo"
-                  className="font-normal text-lightBlue-500"
-                  onClick={(e) => e.preventDefault()}
-                >
+                  href="/profile/detail"
+                  className="font-normal text-lightBlue-500"  >
                   Show more
                 </Link>
               </div>

@@ -1270,6 +1270,13 @@ select {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.bg-neutral-300{
+  background-color: rgb(212 212 212);
+}
+.bg-neutral-400{
+  background-color: rgb(163 163 163);
+}
+
 .bg-pink-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(236, 72, 153, var(--tw-bg-opacity));

@@ -21,7 +21,7 @@ export default function Home() {
               </p>
               <div className="mt-12">
                 <Link
-                  href={"https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"}
+                  href={"/magang"}
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
@@ -81,10 +81,7 @@ export default function Home() {
                     Apa saja yang didapatkan?
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia alias, saepe, explicabo velit tempora possimus quasi ex rerum facilis esse unde temporibus.
                   </p>
                 </blockquote>
               </div>
@@ -250,10 +247,10 @@ export default function Home() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                        src="/img/jidoka.png"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
+                        PT Jidoka
                       </p>
                     </div>
                   </Link>
@@ -312,10 +309,10 @@ export default function Home() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                        src="/img/kalbe-morinaga.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
+                        PT Kalbe Morinaga Indonesia
                       </p>
                     </div>
                   </Link>
@@ -341,33 +338,32 @@ export default function Home() {
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
+                  Teknologi
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
+                  Kesehatan
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Pertanian
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
+                  Manufaktur
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
+                  Seni
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
+                  Pendidikan
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
+                  Ekonomi
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
+                  Tata Boga
                 </span>
               </div>
               <Link
-                href={"https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"}
-                target="_blank"
+                href={"/magang"}
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
                 View all{" "}
@@ -377,11 +373,9 @@ export default function Home() {
           </div>
           <div id="sectionMitraMagangID" className="justify-center text-center flex flex-wrap pt-32">
             <div className="w-full md:w-6/12 px-12 md:px-4">
-              <h2 className="font-semibold text-4xl">Mitra Magang</h2>
+              <h2 className="font-semibold text-4xl">Rekomendasi Magang</h2>
               <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-                Notus NextJS is a completly new product built using our past
-                experience in web templates. Take the examples we made for you and
-                start playing with them.
+                Tempat magang ini mungkin sesuai dengan jurusan atau keinginanmu.
               </p>
             </div>
           </div>

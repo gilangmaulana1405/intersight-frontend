@@ -34,11 +34,16 @@ export default function CardMagang() {
                         </p>
                         <div className="mt-8 border-none">
                             <Link
-                                href={"https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"}
-                                target="_blank"
+                                href={"/auth/login"}
                                 className="get-started text-white font-bold px-2 py-3 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-400
                                                 active:bg-gray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150">
                                 Pilih Sekarang
+                            </Link>
+                            <Link
+                                href={"/magang/detail/:id"}
+                                className="get-started text-white font-bold px-2 py-3 rounded outline-none focus:outline-none mr-1 mb-1 bg-neutral-300
+                                                active:bg-neutral-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150">
+                                Detail
                             </Link>
                         </div>
                     </blockquote>

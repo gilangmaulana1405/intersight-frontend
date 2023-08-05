@@ -107,7 +107,18 @@ export default function Magang() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-wrap items-center mt-32">
+
+                            <div className="w-full lg:w-full px-4 ml-auto mr-auto text-center mt-16">
+                                <div className="pr-12">
+                                    <h1 className="font-semibold text-3xl">Cari Tempat Magang</h1>
+                                </div>
+                            </div>
+                        <div className="flex items-center border border-gray-400 rounded-lg p-4 mt-5">
+                            <input type="search" className="w-full px-4 py-3 p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Cari..." />
+                            <button className="ml-2 bg-lightBlue-500 hover:bg-lightBlue-600 text-white rounded-md px-4 py-2 focus:outline-none">Cari</button>
+                        </div>
+
+                        <div className="flex flex-wrap items-center mt-16">
                             <CardMagang />
                             <CardMagang />
                             <CardMagang />

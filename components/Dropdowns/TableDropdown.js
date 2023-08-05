@@ -1,5 +1,6 @@
 import React from "react";
 import { createPopper } from "@popperjs/core";
+import Link from "next/link";
 
 const NotificationDropdown = () => {
   // dropdown props
@@ -19,7 +20,7 @@ const NotificationDropdown = () => {
     <>
       <Link
         className="text-blueGray-500 py-1 px-3"
-        href="#pablo"
+        href=""
         ref={btnDropdownRef}
         onClick={(e) => {
           e.preventDefault();
@@ -36,29 +37,29 @@ const NotificationDropdown = () => {
         }
       >
         <Link
-          href="#pablo"
+          href=""
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
-          onClick={(e) => e.preventDefault()}
+          
         >
           Action
         </Link>
         <Link
-          href="#pablo"
+          href=""
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
-          onClick={(e) => e.preventDefault()}
+          
         >
           Another action
         </Link>
         <Link
-          href="#pablo"
+          href=""
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
-          onClick={(e) => e.preventDefault()}
+          
         >
           Something else here
         </Link>

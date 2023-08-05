@@ -1,6 +1,7 @@
 import React from "react";
+import Link from "next/link";
 
-import UserDropdown from "components/Dropdowns/UserDropdown.js";
+import UserDropdown from "../Dropdowns/UserDropdown";
 
 export default function Navbar() {
   return (
@@ -11,9 +12,8 @@ export default function Navbar() {
           {/* Brand */}
           <Link
             className="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-            href="#pablo"
-            onClick={(e) => e.preventDefault()}
-          >
+            href = "#"
+            onClick = {(e) => e.preventDefault()}>
             Dashboard
           </Link>
           {/* Form */}
